@@ -10,7 +10,7 @@ the total number of photons emitted together by the two sources over a constant 
 lengths. For simplicity, let us assume that the detector captures all photons emitted by the sources.
 For t = 0, 1, 2, . . . . and i = 1, 2, let us define a random quantity Zt,i, where Zt,i = 0 if source i is not in the case t
 active and Zt,i = 1 if source i is active in case t. The sequences (Z0,i, Z1,i, . . .) form an independent homogeneous
-Markovian cross sections. If the source is also inactive in case t, it does not emit photons. If the source is also active, it emits
+Markov chains. If the source is also inactive in case t, it does not emit photons. If the source is also active, it emits
 photons. The number of photons emitted by the source and during the period of its activity is given by Poisson's
 difference with parameter λi
 . Let us denote the number of photons emitted by source i at time t as Xt,i and the number of
@@ -21,6 +21,6 @@ f_{Z0,1,Z0,2}
 transition probablities
 f_{Zt+1,1|Zt,1}, {f_Zt+1,2|Zt,2}
 and the intensities λ1, λ2 are known.
-Derive recursive relations for the so-called state filtering, i.e. relations for conditional truth functions
+Derive recursive relations for the so-called state filtering, i.e. relations for conditional probability functions
 f_{Zt,1,Zt,2|Y1,Y2,...,Yt}
 of the state in case t under the conditions of all currently available observations
